@@ -24,14 +24,17 @@
         }
 
         nav {
-            float: right;
+            float: none;
             margin-top: 10px;
+            background-color: black;
+            text-align: center;
         }
 
         nav a {
             text-decoration: none;
-            color: black;
+            color: white;
             padding: 0 10px;
+            display: inline-block;
         }
 
         main {
@@ -39,8 +42,10 @@
         }
 
         img {
-            /* TODO 2: Set the image width so that the 3 images fit in 1 row and fills the browser width */
-        }
+width: 33%;
+box-sizing: border-box;
+margin-bottom: 10px;        
+}
 
         /* TODO 3: Add CSS media queries for smaller screens */
         @media only screen and (max-width: 768px) {
@@ -56,12 +61,6 @@
         margin-top: 10px;
     }
 
-    nav a {
-        display: block;
-        padding: 10px;
-        color: white; 
-        text-align: center; 
-    }
 
     img {
         width: 100%;
