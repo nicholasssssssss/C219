@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <!-- TODO 1: Add viewport here -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Web Page</title>
     <style>
         body {
@@ -44,16 +44,36 @@
 
         /* TODO 3: Add CSS media queries for smaller screens */
         @media only screen and (max-width: 768px) {
+    h1 {
+        float: none;
+        text-align: center; 
+    }
 
-        /* TODO 4: Center logo */
+    nav {
+        float: none;
+        text-align: center; 
+        background-color: black; 
+        margin-top: 10px;
+    }
 
-        /* TODO 5: Shift navigation below logo, add a black background and center all nav items */
-        
-        /* TODO 6: Stack the 3 images in 1 column */
-        
-        /* TODO 7: Hide the video */
-        
-        }
+    nav a {
+        display: block;
+        padding: 10px;
+        color: white; 
+        text-align: center; 
+    }
+
+    img {
+        width: 100%;
+        display: block;
+        margin: 10px auto; 
+    }
+
+    iframe {
+        display: none; 
+    }
+}
+
     </style>
 </head>
 
